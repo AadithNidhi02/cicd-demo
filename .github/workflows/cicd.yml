@@ -27,6 +27,5 @@ jobs:
       - name: Test
         run: npm test
 
-      - name: Deploy to GitHub Pages
-        run: |
-          echo "Deploy step (demo)"
+      - name: Deploy to test environment
+        run: echo "Deploying to test environment..."
